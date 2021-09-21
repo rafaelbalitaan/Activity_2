@@ -5,3 +5,7 @@ semifinal =int(input("Semifinals: "))
 final = int(input("Finals: "))
 avg = (prelim + midterm + semifinal + final)/4
 print("Your average is {} " .format(avg))
+if avg>=75 and avg<=100:
+    print("You Are Passed")
+else:
+    print("You Are Failed")
